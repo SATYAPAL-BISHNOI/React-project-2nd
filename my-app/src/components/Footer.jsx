@@ -1,6 +1,6 @@
 import { Box, Button, HStack, Heading, Input, Stack, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
-import {AiOutlineSend,AiOutlineYoutube,AiOutlineInstagram,AiOutlineTwitter } from 'react-icons/ai'
+import {AiOutlineSend,AiOutlineYoutube,AiOutlineGithub,AiOutlineInstagram} from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -13,9 +13,8 @@ const Footer = () => {
                 <HStack borderBottom={'2px solid white'} py={2}>
                     <Input type='Email' placeholder='Enter Email Here...'
                     border={'none'}
-                    borderRadius={'none'}
+                    borderRadius={20}
                     outline={'none'}
-                    focusBorderColor='none'
                     />
                     <Button
                     type='submit'
@@ -50,14 +49,15 @@ const Footer = () => {
                 <Heading size={'md'} textTransform={'uppercase'}>
                     Follow Us
                 </Heading>
+                
                 <Button variant={'link'} colorScheme='purple'>
-                        <a href="http://youtube.com/video-hub/pre">YouTube<AiOutlineYoutube/></a>
+                        <a href="http://youtube.com/video-hub/pre/"><AiOutlineYoutube size={30}/></a>
                 </Button>
                 <Button variant={'link'} colorScheme='purple'>
-                        <a href="http://twitter.com/video-hub/acc">Twitter<AiOutlineTwitter/></a>
+                        <a href="https://github.com/SATYAPAL-BISHNOI/"><AiOutlineGithub size={30}/></a>
                 </Button>
                 <Button variant={'link'} colorScheme='purple'>
-                        <a href="http://instagram.com/video-hub/page">Instagram<AiOutlineInstagram/></a>
+                        <a href="http://instagram.com/video-hub/page/"><AiOutlineInstagram size={30}/></a>
                 </Button>
             </VStack>
         </Stack>

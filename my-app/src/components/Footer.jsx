@@ -43,6 +43,7 @@ const Footer = () => {
                 <Text>
                     @All Right Received
                 </Text>
+                <Text>By-Satyapal</Text>
             </VStack>
             <VStack w={'full'}
             >

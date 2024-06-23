@@ -32,25 +32,25 @@ const Home = () => {
     showArrows={false} 
     >
         <Box w={'full'} h={'100vh'}>
-            <Image src={img1}/>
+            <Image src={img1} h={'full'} w={'full'} objectFit={'cover'}/>
             <Heading borderRadius={30} bgColor={'blackAlpha.500'} color={"white"} {...HeadingOption}>
                 watch the future
             </Heading>
         </Box>
         <Box w={'full'} h={'100vh'}>
-            <Image src={img2}/>
+            <Image src={img2}h={'full'} w={'full'} objectFit={'cover'}/>
             <Heading borderRadius={30} bgColor={'whiteAlpha.700'} color={"black"}{...HeadingOption}>
                 future of Gaming
             </Heading>
         </Box>
         <Box w={'full'} h={'100vh'}>
-            <Image src={img3}/>
+            <Image src={img3}h={'full'} w={'full'} objectFit={'cover'}/>
             <Heading borderRadius={30} bgColor={'whiteAlpha.700'} color={"black"}{...HeadingOption}>
                 Gaming on Console
             </Heading>
         </Box>
         <Box w={'full'} h={'100vh'}>
-            <Image src={img4}/>
+            <Image src={img4}h={'full'} w={'full'} objectFit={'cover'}/>
             <Heading borderRadius={30} bgColor={'whiteAlpha.700'} color={"black"}{...HeadingOption}>
                 Night life is Cool
             </Heading>

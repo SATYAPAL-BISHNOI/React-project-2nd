@@ -9,6 +9,7 @@ import {Drawer,
     useDisclosure,
     VStack,
     HStack,
+
 } from "@chakra-ui/react";
 import { Link } from 'react-router-dom';
 import {BiMenuAltLeft} from 'react-icons/bi'
@@ -36,7 +37,7 @@ const Header = () => {
         <DrawerOverlay>
             <DrawerContent>
                 <DrawerCloseButton/>
-                <DrawerHeader>xTUBE HUB</DrawerHeader>
+                <DrawerHeader fontSize={35}>VIDeo HUB </DrawerHeader>
                 <DrawerBody>
                     <VStack alignItems={'flex-start'}>
                         <Button onClick={onclose} variant={'ghost'} colorScheme='purple'>

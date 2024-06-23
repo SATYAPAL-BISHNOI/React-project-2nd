@@ -13,7 +13,7 @@ const Footer = () => {
                 <HStack borderBottom={'2px solid white'} py={2}>
                     <Input type='Email' placeholder='Enter Email Here...'
                     border={'none'}
-                    borderRadius={20}
+                    borderRadius={'15px 0 0 15px'}
                     outline={'none'}
                     />
                     <Button
@@ -21,7 +21,7 @@ const Footer = () => {
                     p={'0'}
                     colorScheme='purple'
                     variant={'ghost'}
-                    borderRadius={'0 20px 20px 0'}
+                    borderRadius={'0 15px 15px 0'}
                     >
                         <AiOutlineSend size={20}/>
                     </Button>
@@ -38,7 +38,7 @@ const Footer = () => {
             borderRadius={8}
             >
                 <Heading textTransform={'uppercase'} color={'purple'} textAlign={'center'}>
-                    Video hub
+                    VIDeo hub
                 </Heading>
                 <Text>
                     @All Right Received
